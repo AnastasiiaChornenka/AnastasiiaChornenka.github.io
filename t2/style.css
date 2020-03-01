@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+main{
+	background-color: blue;
+	color: white;
+	height: 1000px;
+}
+a:hover{
+	color: red
+}
+input:focus{
+	border: 2px solid red;
+}
+input:valid{
+	background-color: lightgreen;
+}
+input:invalid{
+	background-color: pink;
+}
+header{
+	padding: 10px;
+	background: linear-gradient(to right, white, blue);
+}
+a{
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	color: #6e1212;
+}
+input[type=submit]{
+	background: linear-gradient(to right, red, yellow);
+	border: 2px solid red;
+}
+input{
+	margin: 5px 0;
+}
+form{
+	margin-left: 20px;
+}
